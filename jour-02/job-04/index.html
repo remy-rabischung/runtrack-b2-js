@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job 04 - Register Student</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Job 4 - Register Student</h1>
+    <form id="form-add-student">
+        <input type="email" id="student-mail" placeholder="Email" required><br>
+        <input type="text" id="student-fullname" placeholder="Nom complet" required><br>
+        <select id="student-gender" required>
+            <option value="male">Homme</option>
+            <option value="female">Femme</option>
+        </select><br>
+        <select id="student-grade" required>
+            <option value="1">Bachelor 1</option>
+            <option value="2">Bachelor 2</option>
+            <!-- Ajouter plus d'options ici -->
+        </select><br>
+        <input type="date" id="student-birthdate" required><br>
+        <input type="submit" id="submit-btn" value="S'inscrire">
+    </form>
+</body>
+</html>
